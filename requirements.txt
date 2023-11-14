@@ -9,4 +9,5 @@ dill
 Flask
 typing
 datetime
+pickle
 -e .
