@@ -21,7 +21,7 @@ def get_requirements(file_path:str)->List[str]:
 
 setup(
 
-    name='gemstone_price_prediction',
+    name='cancer_prediction',
     version='0.0.1',
     author='Roman de la Rosa',
     author_email='mldevops2@gmail.com',
