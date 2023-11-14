@@ -19,7 +19,6 @@ def get_requirements(file_path:str)->List[str]:
 
     
 
-
 setup(
 
     name='gemstone_price_prediction',
