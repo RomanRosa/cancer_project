@@ -14,3 +14,12 @@ from sklearn.model_selection import cross_val_score
 
 from src.utils import save_object, evaluate_model
 from dataclasses import dataclass
+
+
+@dataclass
+class ModelTrainerconfig:
+    trained_model_file_path = os.path.join('artifacts','model.pkl')
+
+class ModelTrainer:
+    def __init__(self):
+        self.model_trainer_config = ModelTrainerconfig()
